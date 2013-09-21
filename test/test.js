@@ -36,31 +36,31 @@ describe('just.randomstring', function () {
         it('expect not to have "a" nor "A" for type "numbers"', function () {
             expect(randomstring(500, 'numbers')).not.to.contain('a').and.contain('A');
         });
-        it('expect to have "A" for type "alphauppercase"', function () {
-            expect(randomstring(500, 'alphauppercase')).to.contain('A');
+        it('expect to have "A" for type "uppercases"', function () {
+            expect(randomstring(500, 'uppercases')).to.contain('A');
         });
-        it('expect not to have "1" nor "a" for type "alphauppercase"', function () {
-            expect(randomstring(500, 'alphauppercase')).not.to.contain('a').and.contain('1');
+        it('expect not to have "1" nor "a" for type "uppercases"', function () {
+            expect(randomstring(500, 'uppercases')).not.to.contain('a').and.contain('1');
         });
-        it('expect to have "a" for type "alphalowercase"', function () {
-            expect(randomstring(500, 'alphalowercase')).to.contain('a');
+        it('expect to have "a" for type "lowercases"', function () {
+            expect(randomstring(500, 'lowercases')).to.contain('a');
         });
-        it('expect not to have "A" nor "1" for type "alphalowercase"', function () {
-            expect(randomstring(500, 'alphalowercase')).not.to.contain('A').and.contain('1');
+        it('expect not to have "A" nor "1" for type "lowercases"', function () {
+            expect(randomstring(500, 'lowercases')).not.to.contain('A').and.contain('1');
         });
-        it('expect to have "a" and "1" for type "numbers_alphalowercase"', function () {
-            expect(randomstring(500, 'numbers_alphalowercase')).to.contain('a').and.contain('1');
+        it('expect to have "a" and "1" for type "numbers_lowercases"', function () {
+            expect(randomstring(500, 'numbers_lowercases')).to.contain('a').and.contain('1');
         });
-        it('expect to have "a" and "A" for type "alphauppercase_alphalowercase"', function () {
-            expect(randomstring(500, 'alphauppercase_alphalowercase')).to.contain('a').and.contain('A');
+        it('expect to have "a" and "A" for type "uppercases_lowercases"', function () {
+            expect(randomstring(500, 'uppercases_lowercases')).to.contain('a').and.contain('A');
         });
-        it('expect not to have "1" for type "alphauppercase_alphalowercase"', function () {
-            expect(randomstring(500, 'alphauppercase_alphalowercase')).not.to.contain('1');
+        it('expect not to have "1" for type "uppercases_lowercases"', function () {
+            expect(randomstring(500, 'uppercases_lowercases')).not.to.contain('1');
         });
         it('expect to ignore unvalid types as second param', function () {
-            expect(randomstring(500, 'alphauppercase_alphalowercase_numbertypo')).not.to.contain('1');
+            expect(randomstring(500, 'uppercases_lowercases_numbertypo')).not.to.contain('1');
         });
-        it('expect to use numbers_alphalowercase_alphauppercase when type cant be extracted from param', function () {
+        it('expect to use numbers_lowercases_uppercases when type cant be extracted from param', function () {
             expect(randomstring(500, 'number')).to.contain('A').and.contain('a').and.contain('1');
         });
     });
