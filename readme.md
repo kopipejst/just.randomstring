@@ -50,7 +50,7 @@ examples:
 
 
 ###type
-type of characters that will be used for string generation (default numbers_uppercases_lowercases)
+type of characters that will be used for string generating (default numbers_uppercases_lowercases)
 
 type can be **numbers**, **uppercases**, **lowercases** or combination of those separated with **_**
 
