@@ -3,7 +3,9 @@
 [![Build Status](https://travis-ci.org/kopipejst/just.randomstring.png)](https://travis-ci.org/kopipejst/just.randomstring)
 
 
-JavaScript random string generator
+JavaScript random string generator.
+
+Can be used for generating random string for api keys, passwords ...
 
 ##Installation##
 

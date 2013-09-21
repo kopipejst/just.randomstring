@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "homepage": "http://workshop.rs/projects/just-randomcolor",
   "keywords": ["strings","keys","random","passwords"],
-  "description": "generate random string for api key, passwords ...",
+  "description": "generate random string for api keys, passwords ...",
   "main": "just.RandomColor.js",
   "scripts": {
     "test": "mocha -R spec"
