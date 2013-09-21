@@ -1,7 +1,15 @@
-
-
+/**
+ * just namespace
+ * @type {[type]}
+ */
 var just = just || {};
-//NUM, ALPHAU, ALPHAL, ALPHAUNUM, ALPHALNUM, ALPHANUM, ALPHA
+
+/**
+ * [ description]
+ * @param  {integer} len  [description]
+ * @param  {string} type [description]
+ * @return {string}      [description]
+ */
 just.randomstring = function (len, type) {
 
     len = len || 20;
@@ -34,10 +42,6 @@ just.randomstring = function (len, type) {
     return ret;
 
 };
-
-var str = just.randomstring(20);
-console.log(str);
-
 
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = just.randomstring;
