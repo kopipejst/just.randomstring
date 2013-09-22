@@ -59,5 +59,6 @@ examples:
     var rs = randomstring(20, 'numbers'); // returns "78394850802905961074"
     var rs = randomstring(15, 'numbers_uppercases'); // returns "PXL3AE2USI7ZDQ2"
 
-
+##Demo##
+[workshop.rs](http://workshop.rs/projects/just-randomstring)
 

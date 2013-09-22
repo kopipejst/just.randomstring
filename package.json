@@ -1,7 +1,7 @@
 {
   "name": "just.randomstring",
   "version": "0.0.1",
-  "homepage": "http://workshop.rs/projects/just-randomcolor",
+  "homepage": "http://workshop.rs/projects/just-randomstring",
   "keywords": ["strings","keys","random","passwords"],
   "description": "generate random string for api keys, passwords ...",
   "main": "just.RandomColor.js",
