@@ -59,6 +59,17 @@ examples:
     var rs = randomstring(20, 'numbers'); // returns "78394850802905961074"
     var rs = randomstring(15, 'numbers_uppercases'); // returns "PXL3AE2USI7ZDQ2"
 
+##Array of random strings##
+
+`randomstring.array()` will return array of 5 random strings by default
+
+accepts 3 params, where first one is length of array, while second and third are the same as for randomstring()
+
+examples:
+
+    var rs = randomstring.array(20); // returns array of 20 random strings
+    var rs = randomstring.array(5, 30, 'numbers'); // returns array of 5 random strings with 30 character length types of numbers
+
 ##Demo##
 [workshop.rs](http://workshop.rs/projects/just-randomstring)
 

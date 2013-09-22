@@ -65,4 +65,13 @@ describe('just.randomstring', function () {
         });
     });
 
+    describe('array', function () {
+        it('expect to return array with length of 5 by default', function () {
+            expect(randomstring.array()).to.be.a('array').and.length(5);
+        });
+        it('expect to return array with length of 10 if first param is 10', function () {
+            expect(randomstring.array(10)).to.be.a('array').and.length(10);
+        });
+    });
+
 });
