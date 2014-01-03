@@ -9,7 +9,7 @@
     "passwords"
   ],
   "description": "generate random string for api keys, passwords ...",
-  "main": "just.RandomColor.js",
+  "main": "just.randomstring.js",
   "scripts": {
     "test": "mocha -R spec"
   },
