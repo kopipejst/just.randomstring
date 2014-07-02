@@ -1,4 +1,25 @@
 {
   "name": "just.randomstring",
-  "version": "0.1.2"
+  "version": "0.1.2",
+  "main": "just.randomstring.js",
+  "homepage": "https://github.com/kopipejst/just.randomstring",
+  "authors": [
+    "Ivan Lazarevic <devet.sest@gmail.com>"
+  ],
+  "description": "javascript random string generator",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "random",
+    "string"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
